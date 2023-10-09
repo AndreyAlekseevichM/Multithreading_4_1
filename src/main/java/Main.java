@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class Main {
-    public static ArrayBlockingQueue queueA = new ArrayBlockingQueue(100);
+    public static ArrayBlockingQueue queueA = new ArrayBlockingQueue<>(100);
     public static ArrayBlockingQueue queueB = new ArrayBlockingQueue<>(100);
     public static ArrayBlockingQueue queueC = new ArrayBlockingQueue<>(100);
 
